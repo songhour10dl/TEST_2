@@ -1,0 +1,377 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #fdfdfd;
+  color: #222;
+  line-height: 1.6;
+}
+
+section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+/* Testimonials */
+.testimonials h5 {
+  color: #d62b70;
+  letter-spacing: 1px;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  margin: 10px 0 20px;
+}
+
+.testimonial-box {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: inline-block;
+  padding: 20px;
+  max-width: 500px;
+}
+
+.testimonial-images img {
+  width: 120px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+/* Experts */
+.expert-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.expert img {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.expert h3 {
+  margin-top: 15px;
+  font-weight: 700;
+}
+
+.expert p {
+  color: #d62b70;
+}
+
+/* Food App */
+.food-app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  background: #fff7f8;
+  padding: 80px 20px;
+  border-radius: 30px;
+}
+
+.food-text {
+  max-width: 450px;
+  text-align: left;
+}
+
+.food-text h5 {
+  color: #d62b70;
+  font-weight: 700;
+}
+
+.food-text ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+.food-text ul li::before {
+  content: "✔️ ";
+}
+
+.app-buttons {
+  margin-top: 20px;
+}
+
+.app-buttons button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.google {
+  background: #000;
+  color: #fff;
+}
+
+.apple {
+  background: #ff385c;
+  color: #fff;
+}
+
+/* News */
+.news-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.news-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 250px;
+  padding: 10px;
+}
+
+.news-card img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.news-card h4 {
+  margin: 10px 0 5px;
+}
+
+/* Instagram */
+.instagram h3 {
+  margin-bottom: 20px;
+}
+
+.insta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  justify-content: center;
+}
+
+.insta-grid img {
+  width: 100%;
+  border-radius: 10px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fff;
+  color: #222;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1150px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 15px 0 30px;
+}
+
+.sub-title {
+  color: #d6296a;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+/* Testimonials */
+.testimonials {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.testimonial-box {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  padding: 25px 40px;
+  display: inline-block;
+  max-width: 550px;
+  margin: 20px 0;
+}
+
+.testimonial-box h4 {
+  color: #444;
+  margin-top: 10px;
+}
+
+.testimonial-images img {
+  border-radius: 12px;
+  width: 120px;
+  margin: 10px;
+}
+
+/* Experts */
+.experts {
+  text-align: center;
+  background: #fff;
+}
+
+.expert-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.expert img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.expert img:hover {
+  transform: scale(1.05);
+}
+
+.role {
+  color: #d6296a;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+/* Food App */
+.food-app {
+  background: #fff7f9;
+  border-radius: 40px;
+  margin: 50px 0;
+}
+
+.food-layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.food-text {
+  flex: 1;
+  min-width: 320px;
+}
+
+.food-text ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+.food-text ul li::before {
+  content: "✔️ ";
+  margin-right: 6px;
+}
+
+.app-buttons {
+  margin-top: 20px;
+}
+
+.google-btn, .apple-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.google-btn {
+  background: #000;
+  color: #fff;
+}
+
+.apple-btn {
+  background: #ff385c;
+  color: #fff;
+}
+
+.food-img img {
+  max-width: 400px;
+  border-radius: 20px;
+}
+
+/* News */
+.news {
+  text-align: center;
+}
+
+.news-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.news-card {
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 14px;
+  padding: 10px;
+  width: 280px;
+  transition: transform 0.3s ease;
+}
+
+.news-card:hover {
+  transform: translateY(-5px);
+}
+
+.news-card img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+/* Instagram */
+.instagram {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.insta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.insta-grid img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.insta-grid img:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .food-layout {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .food-text {
+    text-align: center;
+  }
+
+  .app-buttons button {
+    margin-bottom: 10px;
+  }
+}

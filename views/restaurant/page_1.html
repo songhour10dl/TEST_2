@@ -1,98 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Restaurant Website</title> 
-  <link rel="stylesheet" href="/restaurant.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Landing Page</title>
+  <link rel="stylesheet" href="/public/restaurant.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <!-- Testimonials -->
+  <!-- Testimonials Section -->
   <section class="testimonials">
-    <h5>TESTIMONIALS & REVIEWS</h5>
-    <h2>Our Customer Feedbacks</h2>
-    <div class="testimonial-box">
-      <p>"A good restaurant is like a vacation; it transports you, and it becomes a lot more than just about the food."</p>
-      <h4>- Brottie Honnit</h4>
-    </div>
-    <div class="testimonial-images">
-      <img src="https://via.placeholder.com/150" alt="">
-      <img src="https://via.placeholder.com/150" alt="">
-      <img src="https://via.placeholder.com/150" alt="">
+    <div class="container">
+      <h5 class="sub-title">TESTIMONIALS & REVIEWS</h5>
+      <h2 class="section-title">Our Customer Feedbacks</h2>
+
+      <div class="testimonial-box">
+        <p>
+          A good restaurant is like a vacation, it transports you, and it becomes a lot more than just about the food. A great deeds and of great thoughts.
+        </p>
+        <h4>- Brottie Honnit</h4>
+      </div>
+
+      <div class="testimonial-images">
+        <img src="https://via.placeholder.com/120x120.png?text=Coffee" alt="Coffee">
+        <img src="https://via.placeholder.com/120x120.png?text=Cake" alt="Cake">
+        <img src="https://via.placeholder.com/120x120.png?text=Dessert" alt="Dessert">
+      </div>
     </div>
   </section>
 
-  <!-- Experts -->
+  <!-- Experts Section -->
   <section class="experts">
-    <h2>Meet Our Experts</h2>
-    <div class="expert-container">
-      <div class="expert">
-        <img src="https://via.placeholder.com/200" alt="">
-        <h3>Thomas Walim</h3>
-        <p>Desert Specialist</p>
-      </div>
-      <div class="expert">
-        <img src="https://via.placeholder.com/200" alt="">
-        <h3>James Jhonson</h3>
-        <p>Chef Master</p>
-      </div>
-      <div class="expert">
-        <img src="https://via.placeholder.com/200" alt="">
-        <h3>Room Minai</h3>
-        <p>Desert Specialist</p>
+    <div class="container">
+      <h2 class="section-title">Meet Our Experts</h2>
+      <div class="expert-grid">
+        <div class="expert">
+          <img src="/images/cheft1.jpg" alt="Chef 1">
+          <h3>Thomas Walim</h3>
+          <p class="role">Dessert Specialist</p>
+        </div>
+        <div class="expert">
+          <img src="/images/cheft2.jpg" alt="Chef 2">
+          <h3>James Jhonson</h3>
+          <p class="role">Chef Master</p>
+        </div>
+        <div class="expert">
+          <img src="/images/cheft3.jpg" alt="Chef 3">
+          <h3>Room Minai</h3>
+          <p class="role">Dessert Specialist</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Food App -->
+  <!-- Food App Section -->
   <section class="food-app">
-    <div class="food-text">
-      <h5>BEST APP FOR FOOD ORDERING</h5>
-      <h2>Manage Your Restaurant Anytime! Anywhere!</h2>
-      <ul>
-        <li>Regular Updates & Reports</li>
-        <li>Showcase Menu Items</li>
-        <li>Exclusive Offers & Discounts</li>
-      </ul>
-      <div class="app-buttons">
-        <button class="google">Google Play</button>
-        <button class="apple">App Store</button>
+    <div class="container food-layout">
+      <div class="food-text">
+        <h5 class="sub-title">BEST APP FOR FOODS ORDERING</h5>
+        <h2 class="section-title">Manage Your Restaurant Anytime! Anywhere!</h2>
+        <ul>
+          <li>Regular Reports & Feedback</li>
+          <li>Showcase Menu to Users</li>
+          <li>Exclusive Offers & Discounts</li>
+        </ul>
+        <div class="app-buttons">
+          <button class="google-btn">Google Play</button>
+          <button class="apple-btn">App Store</button>
+        </div>
       </div>
-    </div>
-    <div class="food-image">
-      <img src="https://via.placeholder.com/400" alt="">
+      <div class="food-img">
+        <img src="/images/foodapp.jpg" alt="Food App">
+      </div>
     </div>
   </section>
 
   <!-- Recent News -->
   <section class="news">
-    <h2>Recent News</h2>
-    <div class="news-container">
-      <div class="news-card">
-        <img src="https://via.placeholder.com/250" alt="">
-        <h4>Creamy Chicken Alfredo</h4>
-        <p>April 25 | William Thomas</p>
-      </div>
-      <div class="news-card">
-        <img src="https://via.placeholder.com/250" alt="">
-        <h4>Air Fryer Salmon</h4>
-        <p>April 26 | William Thomas</p>
+    <div class="container">
+      <h2 class="section-title">Recent News</h2>
+      <div class="news-grid">
+        <div class="news-card">
+          <img src="https://via.placeholder.com/280x180.png?text=Creamy+Chicken+Alfredo" alt="">
+          <h4>Creamy Chicken Alfredo</h4>
+          <p>April 25 | William Thomas</p>
+        </div>
+        <div class="news-card">
+          <img src="https://via.placeholder.com/280x180.png?text=Air+Fryer+Salmon" alt="">
+          <h4>Air Fryer Salmon</h4>
+          <p>April 26 | William Thomas</p>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Instagram -->
   <section class="instagram">
-    <h3>Follow @shawonete3</h3>
-    <div class="insta-grid">
-      <img src="https://via.placeholder.com/150" alt="">
-      <img src="https://via.placeholder.com/150" alt="">
-      <img src="https://via.placeholder.com/150" alt="">
-      <img src="https://via.placeholder.com/150" alt="">
-      <img src="https://via.placeholder.com/150" alt="">
-      <img src="https://via.placeholder.com/150" alt="">
+    <div class="container">
+      <h3>Follow @shawonete3</h3>
+      <div class="insta-grid">
+        <img src="https://via.placeholder.com/150.png?text=Food1" alt="">
+        <img src="https://via.placeholder.com/150.png?text=Food2" alt="">
+        <img src="https://via.placeholder.com/150.png?text=Food3" alt="">
+        <img src="https://via.placeholder.com/150.png?text=Food4" alt="">
+        <img src="https://via.placeholder.com/150.png?text=Food5" alt="">
+        <img src="https://via.placeholder.com/150.png?text=Food6" alt="">
+      </div>
     </div>
   </section>
 
